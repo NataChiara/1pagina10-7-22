@@ -1,4 +1,5 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Encabezado = () => {
     return (
@@ -6,9 +7,9 @@ const Encabezado = () => {
             <h1>Titulo de Pagina 2</h1>
             <nav className='nav'>
                 <ul>
-                    <li>Home</li>
-                    <li>Enlace 1</li>
-                    <li>Enlace 2</li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/enlace1'>Enlace 1</Link></li>
+                    <li><Link to='/enlace2'>Enlace 2</Link></li>                    
                 </ul>
             </nav>
 

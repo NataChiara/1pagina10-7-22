@@ -6,7 +6,11 @@ import PieDePagina from "../component/Footer";
 
 const Enlace1 = () => {
     return (
-        <h1>Este es el enlace 1</h1>
+        <React.Fragment>
+            <Encabezado/>
+            <h1>Este es el enlace 2</h1>
+            <PieDePagina/>
+        </React.Fragment>
     )
 }
 
